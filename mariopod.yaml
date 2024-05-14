@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: supermario-pod
+spec:
+  containers:
+  - name: supermario-container
+    image: pengbai/docker-supermario
+    ports:
+    - containerPort: 8080
+  restartPolicy: Always
