@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: outcome-message-pod
+  labels:
+    app: echo
+spec:
+  containers:
+  - name: outcome-message-container
+    image: alpine:latest
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo "Hello Chirag Nginx Deployment and Service created successfully."
