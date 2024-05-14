@@ -10,4 +10,4 @@ spec:
     image: alpine:latest
     command: ["/bin/sh", "-c"]
     args:
-    - echo "Hello Chirag Nginx Deployment and Service created successfully."
+    - echo "Hello Chirag1 Nginx Deployment and Service created successfully."
